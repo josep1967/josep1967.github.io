@@ -78,12 +78,21 @@ function mostrarDetall(loc) {
 }
 
 
-// 🔥 BOTÓ D’INSTAL·LAR PWA — CORREGIT
+// 🔥 BOTÓ D’INSTAL·LAR PWA — VERSIÓ DEFINITIVA
 let deferredPrompt;
 const installBtn = document.getElementById("installBtn");
 
+// Funció per saber si la PWA està instal·lada
+function pwaInstalada() {
+  return (
+    window.matchMedia('(display-mode: standalone)').matches ||
+    window.matchMedia('(display-mode: minimal-ui)').matches ||
+    navigator.standalone === true
+  );
+}
+
 // 🟩 1) Amagar el botó si la PWA ja està instal·lada
-if (window.matchMedia('(display-mode: standalone)').matches) {
+if (pwaInstalada()) {
   installBtn.classList.add("ocult");
 }
 
@@ -91,7 +100,7 @@ if (window.matchMedia('(display-mode: standalone)').matches) {
 window.addEventListener("beforeinstallprompt", (e) => {
 
   // Si ja està instal·lada → no mostrar el botó
-  if (window.matchMedia('(display-mode: standalone)').matches) return;
+  if (pwaInstalada()) return;
 
   e.preventDefault();
   deferredPrompt = e;
@@ -105,4 +114,9 @@ installBtn.addEventListener("click", async () => {
   const result = await deferredPrompt.userChoice;
   console.log("Instal·lació:", result);
   deferredPrompt = null;
+
+  // Si l’usuari ha instal·lat → amagar el botó definitivament
+  if (pwaInstalada()) {
+    installBtn.classList.add("ocult");
+  }
 });
