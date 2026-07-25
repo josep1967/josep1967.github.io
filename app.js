@@ -17,7 +17,7 @@ const resultats = document.getElementById("resultats");
 const detall = document.getElementById("detall");
 const botoTancar = document.getElementById("tancar-detall");
 
-// 🔥 LISTENER DEL BOTÓ “CERRAR”
+// 🔥 LISTENER DEL BOTÓ “TANCAR”
 botoTancar.onclick = () => {
   detall.classList.add("ocult");
 };
@@ -77,16 +77,28 @@ function mostrarDetall(loc) {
   detall.classList.remove("ocult");
 }
 
-// 🔥 BOTÓ D’INSTAL·LAR PWA (A LA ROOT DEL FITXER)
+
+// 🔥 BOTÓ D’INSTAL·LAR PWA — CORREGIT
 let deferredPrompt;
 const installBtn = document.getElementById("installBtn");
 
+// 🟩 1) Amagar el botó si la PWA ja està instal·lada
+if (window.matchMedia('(display-mode: standalone)').matches) {
+  installBtn.classList.add("ocult");
+}
+
+// 🟩 2) Mostrar el botó només si la PWA NO està instal·lada
 window.addEventListener("beforeinstallprompt", (e) => {
+
+  // Si ja està instal·lada → no mostrar el botó
+  if (window.matchMedia('(display-mode: standalone)').matches) return;
+
   e.preventDefault();
   deferredPrompt = e;
   installBtn.classList.remove("ocult");
 });
 
+// 🟩 3) Acció del botó d’instal·lar
 installBtn.addEventListener("click", async () => {
   installBtn.classList.add("ocult");
   deferredPrompt.prompt();
