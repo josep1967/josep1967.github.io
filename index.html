@@ -7,34 +7,34 @@
 
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="styles.css">
-
 </head>
+
 <body>
 
   <header>
-    <img src="logppc.png" alt="Logo" class="logo">
-    <h1>Localizaciones</h1>
+    <img src="logppc.png" alt="Logo PPC" class="logo">
+    <h1>Localitzacions</h1>
   </header>
 
   <main>
-    <input id="buscador" type="text" placeholder="Escribe para buscar..." autocomplete="off">
+    <input id="buscador" type="text" placeholder="Escriu per buscar..." autocomplete="off">
 
     <div id="resultats"></div>
 
     <div id="detall" class="ocult">
       <h2 id="detall-nom"></h2>
+
       <p><strong>Latitud:</strong> <span id="detall-lat"></span></p>
       <p><strong>Longitud:</strong> <span id="detall-lon"></span></p>
-      <p><strong>Poblacion:</strong> <span id="detall-poblacio"></span></p>
+      <p><strong>Població:</strong> <span id="detall-poblacio"></span></p>
       <p><strong>Comarca:</strong> <span id="detall-comarca"></span></p>
-      <p><strong>Teléfono:</strong> <span id="detall-telefon"></span></p>
-      <p><strong>Comentario:</strong> <span id="detall-comentari"></span></p>
-      <p></p>
+      <p><strong>Telèfon:</strong> <span id="detall-telefon"></span></p>
+      <p><strong>Comentari:</strong> <span id="detall-comentari"></span></p>
+
       <div id="gps-buttons"></div>
-      <p></p>
-      <button id="tancar-detall">Cerrar</button>
-      <p></p>
-      <p></p>
+
+      <button id="tancar-detall">Tancar</button>
+
       <button id="installBtn" class="ocult">Instal·lar App</button>
     </div>
   </main>
@@ -43,7 +43,7 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
+      navigator.serviceWorker.register('/service-worker.js');
     }
   </script>
 
