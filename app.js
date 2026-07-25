@@ -78,11 +78,11 @@ function mostrarDetall(loc) {
 }
 
 
-// 🔥 BOTÓ D’INSTAL·LAR PWA — VERSIÓ DEFINITIVA
+// 🔥 BOTÓ D’INSTAL·LAR PWA — SOLUCIÓ DEFINITIVA
 let deferredPrompt;
 const installBtn = document.getElementById("installBtn");
 
-// Funció per saber si la PWA està instal·lada
+// 🟩 1) Detectar si la PWA està instal·lada (standalone/minimal-ui/iOS)
 function pwaInstalada() {
   return (
     window.matchMedia('(display-mode: standalone)').matches ||
@@ -91,13 +91,18 @@ function pwaInstalada() {
   );
 }
 
-// 🟩 1) Si la PWA està instal·lada → amaguem el botó i NO configurem res més
+// 🟩 2) Si la PWA està instal·lada → guardem estat
 if (pwaInstalada()) {
+  localStorage.setItem("pwaInstalled", "yes");
+}
+
+// 🟩 3) Si ja està instal·lada (segons localStorage) → NO escoltem res
+if (localStorage.getItem("pwaInstalled") === "yes") {
   installBtn.classList.add("ocult");
-  console.log("PWA instal·lada → no mostrar botó");
+  console.log("PWA ja instal·lada → bloquejant beforeinstallprompt completament");
 } else {
 
-  // 🟩 2) Només escoltem l’esdeveniment si NO està instal·lada
+  // 🟩 4) Només escoltem si NO està instal·lada
   window.addEventListener("beforeinstallprompt", (e) => {
     console.log("beforeinstallprompt disparat");
 
@@ -106,13 +111,19 @@ if (pwaInstalada()) {
     installBtn.classList.remove("ocult");
   });
 
-  // 🟩 3) Acció del botó d’instal·lar
+  // 🟩 5) Acció del botó d’instal·lar
   installBtn.addEventListener("click", async () => {
     installBtn.classList.add("ocult");
     deferredPrompt.prompt();
     const result = await deferredPrompt.userChoice;
     console.log("Instal·lació:", result);
+
+    if (result.outcome === "accepted") {
+      localStorage.setItem("pwaInstalled", "yes");
+    }
+
     deferredPrompt = null;
   });
 }
+
 
