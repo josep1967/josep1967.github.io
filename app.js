@@ -91,32 +91,27 @@ function pwaInstalada() {
   );
 }
 
-// 🟩 1) Amagar el botó si la PWA ja està instal·lada
+// 🟩 1) Si la PWA està instal·lada → amaguem el botó i NO configurem res més
 if (pwaInstalada()) {
   installBtn.classList.add("ocult");
-}
+  console.log("PWA instal·lada → no mostrar botó");
+} else {
 
-// 🟩 2) Mostrar el botó només si la PWA NO està instal·lada
-window.addEventListener("beforeinstallprompt", (e) => {
+  // 🟩 2) Només escoltem l’esdeveniment si NO està instal·lada
+  window.addEventListener("beforeinstallprompt", (e) => {
+    console.log("beforeinstallprompt disparat");
 
-  // Si ja està instal·lada → no mostrar el botó
-  if (pwaInstalada()) return;
+    e.preventDefault();
+    deferredPrompt = e;
+    installBtn.classList.remove("ocult");
+  });
 
-  e.preventDefault();
-  deferredPrompt = e;
-  installBtn.classList.remove("ocult");
-});
-
-// 🟩 3) Acció del botó d’instal·lar
-installBtn.addEventListener("click", async () => {
-  installBtn.classList.add("ocult");
-  deferredPrompt.prompt();
-  const result = await deferredPrompt.userChoice;
-  console.log("Instal·lació:", result);
-  deferredPrompt = null;
-
-  // Si l’usuari ha instal·lat → amagar el botó definitivament
-  if (pwaInstalada()) {
+  // 🟩 3) Acció del botó d’instal·lar
+  installBtn.addEventListener("click", async () => {
     installBtn.classList.add("ocult");
-  }
-});
+    deferredPrompt.prompt();
+    const result = await deferredPrompt.userChoice;
+    console.log("Instal·lació:", result);
+    deferredPrompt = null;
+  });
+}
