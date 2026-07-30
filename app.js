@@ -30,16 +30,10 @@ buscador.addEventListener("input", async () => {
   if (text.length === 0) return;
 
   const { data, error } = await supabase
-  .from("localitzacions")
-  .select("*")
-  .or(`
-    nom.ilike.%${text}%,
-    poblacio.ilike.%${text}%,
-    comarca.ilike.%${text}%,
-    comentari.ilike.%${text}%
-  `)
-  .limit(10);
-
+    .from("localitzacions")
+    .select("*")
+    .or(`nom.ilike.%${text}%,poblacio.ilike.%${text}%,comarca.ilike.%${text}%,comentari.ilike.%${text}%`)
+    .limit(10);
 
   if (error) {
     console.error("Error Supabase:", error);
@@ -54,6 +48,7 @@ buscador.addEventListener("input", async () => {
     resultats.appendChild(div);
   });
 });
+
 
 // 🔥 FUNCIÓ DETALL
 function mostrarDetall(loc) {
