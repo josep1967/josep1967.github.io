@@ -1,1 +1,672 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ALFALFA_",
+				"ALFALFA_SILAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "styles.css",
+			"settings":
+			{
+				"buffer_size": 2624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAPACAAAAAAAA8QIAAAAAAAAAAAAA8QIAAAAAAADyAgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPACAAAAAAAA8AIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAAPICAAAAAAAAhwMAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPICAAAAAAAA8gIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					7,
+					1,
+					"paste",
+					null,
+					"AQAAAPICAAAAAAAAvQMAAAAAAACUAAAAI2J1c2NhZG9yIHsKICB3aWR0aDogOTAlOwogIG1heC13aWR0aDogNDAwcHg7CiAgcGFkZGluZzogMTBweDsKICBmb250LXNpemU6IDE4cHg7CiAgbWFyZ2luOiAxMHB4IGF1dG87CiAgZGlzcGxheTogYmxvY2s7CiAgYm94LXNpemluZzogYm9yZGVyLWJveDsKfQ",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPICAAAAAAAAhgMAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					11,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAACUBAAAYm9keSB7CiAgZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7CiAgbWFyZ2luOiAwOwogIHBhZGRpbmc6IDA7CiAgYmFja2dyb3VuZDogI2Y3ZjdmNzsKfQoKaGVhZGVyIHsKICBiYWNrZ3JvdW5kOiAjMzMzOwogIGNvbG9yOiB3aGl0ZTsKICBwYWRkaW5nOiAxNXB4OwogIHRleHQtYWxpZ246IGNlbnRlcjsKfQoKbWFpbiB7CiAgcGFkZGluZzogMjBweDsKfQoKaW5wdXQgewogIHdpZHRoOiAxMDAlOwogIHBhZGRpbmc6IDEycHg7CiAgZm9udC1zaXplOiAxOHB4OwogIGJvcmRlci1yYWRpdXM6IDZweDsKICBib3JkZXI6IDFweCBzb2xpZCAjY2NjOwogIG1hcmdpbi1ib3R0b206IDIwcHg7Cn0KCi5sb2dvIHsKICBoZWlnaHQ6IDYwcHg7CiAgbWFyZ2luLXJpZ2h0OiAxMHB4Owp9CmhlYWRlciB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogMTBweDsKfQoKCi5yZXN1bHRhdCB7CiAgYmFja2dyb3VuZDogd2hpdGU7CiAgcGFkZGluZzogMTJweDsKICBtYXJnaW4tYm90dG9tOiAxMHB4OwogIGJvcmRlci1yYWRpdXM6IDZweDsKICBjdXJzb3I6IHBvaW50ZXI7CiAgYm9yZGVyOiAxcHggc29saWQgI2RkZDsKfQoKLnJlc3VsdGF0OmhvdmVyIHsKICBiYWNrZ3JvdW5kOiAjZWFlYWVhOwp9CgojZGV0YWxsIHsKICBiYWNrZ3JvdW5kOiB3aGl0ZTsKICBwYWRkaW5nOiAyMHB4OwogIGJvcmRlci1yYWRpdXM6IDZweDsKICBib3JkZXI6IDFweCBzb2xpZCAjZGRkOwogIG1hcmdpbi10b3A6IDIwcHg7Cn0KCiNidXNjYWRvciB7CiAgd2lkdGg6IDkwJTsKICBtYXgtd2lkdGg6IDM4MHB4OwogIHBhZGRpbmc6IDEycHggMTZweDsKICBmb250LXNpemU6IDE4cHg7CiAgYm9yZGVyLXJhZGl1czogMTJweDsKICBib3JkZXI6IDJweCBzb2xpZCAjY2NjOwogIG1hcmdpbjogMTVweCBhdXRvOwogIGRpc3BsYXk6IGJsb2NrOwogIGJveC1zaXppbmc6IGJvcmRlci1ib3g7Cn0KCgoKLm9jdWx0IHsKICBkaXNwbGF5OiBub25lOwp9CgpidXR0b24gewogIHBhZGRpbmc6IDEwcHggMTVweDsKICBmb250LXNpemU6IDE2cHg7CiAgYm9yZGVyOiBub25lOwogIGJhY2tncm91bmQ6ICMzMzM7CiAgY29sb3I6IHdoaXRlOwogIGJvcmRlci1yYWRpdXM6IDZweDsKICBjdXJzb3I6IHBvaW50ZXI7Cn0KCmJ1dHRvbjpob3ZlciB7CiAgYmFja2dyb3VuZDogIzU1NTsKfQo",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAlAQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAQAoAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 3923,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					9,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAADYCwAAY29uc29sZS5sb2coIlVJIGNhcnJlZ2FkYSIpOwoKaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9Ac3VwYWJhc2Uvc3VwYWJhc2UtanNAMi8rZXNtIjsKCmNvbnNvbGUubG9nKCJTdXBhYmFzZSBjYXJyZWdhdCB2aWEgRVNNIik7Cgpjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudCgKICAiaHR0cHM6Ly93aGZpbm1scnlvY2dycHp5Z2Rtai5zdXBhYmFzZS5jbyIsCiAgImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkluZG9abWx1Yld4eWVXOWpaM0p3ZW5sblpHMXFJaXdpY205c1pTSTZJbUZ1YjI0aUxDSnBZWFFpT2pFM056VTBOVGd4T0RRc0ltVjRjQ0k2TWpBNU1UQXpOREU0TkgwLnQ5SzhsM2plak9IZ2FmaGdzd3J6WU1RTnh0ZEJfR2hQLXFEdi1icjlzZVUiCik7Cgpjb25zb2xlLmxvZygiU3VwYWJhc2U6Iiwgc3VwYWJhc2UpOwoKLy8g8J+UpSBWQVJJQUJMRVMgREVMIERPTQpjb25zdCBidXNjYWRvciA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJidXNjYWRvciIpOwpjb25zdCByZXN1bHRhdHMgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgicmVzdWx0YXRzIik7CmNvbnN0IGRldGFsbCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJkZXRhbGwiKTsKY29uc3QgYm90b1RhbmNhciA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJ0YW5jYXItZGV0YWxsIik7CgovLyDwn5SlIExJU1RFTkVSIERFTCBCT1TDkyDigJxDRVJSQVLigJ0KYm90b1RhbmNhci5vbmNsaWNrID0gKCkgPT4gewogIGRldGFsbC5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwp9OwoKLy8g8J+UpSBMSVNURU5FUiBERUwgQlVTQ0FET1IKYnVzY2Fkb3IuYWRkRXZlbnRMaXN0ZW5lcigiaW5wdXQiLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgdGV4dCA9IGJ1c2NhZG9yLnZhbHVlLnRvTG93ZXJDYXNlKCk7CiAgcmVzdWx0YXRzLmlubmVySFRNTCA9ICIiOwoKICBpZiAodGV4dC5sZW5ndGggPT09IDApIHJldHVybjsKCiAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgIC5mcm9tKCJsb2NhbGl0emFjaW9ucyIpCiAgICAuc2VsZWN0KCIqIikKICAgIC5pbGlrZSgibm9tIiwgYCUke3RleHR9JWApCiAgICAubGltaXQoMzApOwoKICBpZiAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkVycm9yIFN1cGFiYXNlOiIsIGVycm9yKTsKICAgIHJldHVybjsKICB9CgogIGRhdGEuZm9yRWFjaChsb2MgPT4gewogICAgY29uc3QgZGl2ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiZGl2Iik7CiAgICBkaXYuY2xhc3NOYW1lID0gInJlc3VsdGF0IjsKICAgIGRpdi50ZXh0Q29udGVudCA9IGxvYy5ub207CiAgICBkaXYub25jbGljayA9ICgpID0+IG1vc3RyYXJEZXRhbGwobG9jKTsKICAgIHJlc3VsdGF0cy5hcHBlbmRDaGlsZChkaXYpOwogIH0pOwp9KTsKCi8vIPCflKUgRlVOQ0nDkyBERVRBTEwKZnVuY3Rpb24gbW9zdHJhckRldGFsbChsb2MpIHsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLW5vbSIpLnRleHRDb250ZW50ID0gbG9jLm5vbTsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLWxhdCIpLnRleHRDb250ZW50ID0gbG9jLmxhdDsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLWxvbiIpLnRleHRDb250ZW50ID0gbG9jLmxvbjsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLXBvYmxhY2lvIikudGV4dENvbnRlbnQgPSBsb2MucG9ibGFjaW87CiAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImRldGFsbC1jb21hcmNhIikudGV4dENvbnRlbnQgPSBsb2MuY29tYXJjYTsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLXRlbGVmb24iKS50ZXh0Q29udGVudCA9IGxvYy50ZWxlZm9uOwogIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJkZXRhbGwtY29tZW50YXJpIikudGV4dENvbnRlbnQgPSBsb2MuY29tZW50YXJpOwoKICBjb25zdCBncHNCdXR0b25zID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImdwcy1idXR0b25zIik7CiAgZ3BzQnV0dG9ucy5pbm5lckhUTUwgPSAiIjsKCiAgZnVuY3Rpb24gY3JlYXJCb3RvKHVybCwgbGFiZWwpIHsKICAgIGNvbnN0IGJvdG8gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJidXR0b24iKTsKICAgIGJvdG8udGV4dENvbnRlbnQgPSBsYWJlbDsKICAgIGJvdG8uc3R5bGUubWFyZ2luUmlnaHQgPSAiMTBweCI7CiAgICBib3RvLm9uY2xpY2sgPSAoKSA9PiB3aW5kb3cub3Blbih1cmwsICJfYmxhbmsiKTsKICAgIGdwc0J1dHRvbnMuYXBwZW5kQ2hpbGQoYm90byk7CiAgfQoKICBpZiAobG9jLmdwczEpIGNyZWFyQm90byhsb2MuZ3BzMSwgIkdQUyAxIik7CiAgaWYgKGxvYy5ncHMyKSBjcmVhckJvdG8obG9jLmdwczIsICJHUFMgMiIpOwogIGlmIChsb2MuZ3BzMykgY3JlYXJCb3RvKGxvYy5ncHMzLCAiR1BTIDMiKTsKCiAgZGV0YWxsLmNsYXNzTGlzdC5yZW1vdmUoIm9jdWx0Iik7Cn0KCi8vIPCflKUgQk9Uw5MgROKAmUlOU1RBTMK3TEFSIFBXQSAoQSBMQSBST09UIERFTCBGSVRYRVIpCmxldCBkZWZlcnJlZFByb21wdDsKY29uc3QgaW5zdGFsbEJ0biA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJpbnN0YWxsQnRuIik7Cgp3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigiYmVmb3JlaW5zdGFsbHByb21wdCIsIChlKSA9PiB7CiAgZS5wcmV2ZW50RGVmYXVsdCgpOwogIGRlZmVycmVkUHJvbXB0ID0gZTsKICBpbnN0YWxsQnRuLmNsYXNzTGlzdC5yZW1vdmUoIm9jdWx0Iik7Cn0pOwoKaW5zdGFsbEJ0bi5hZGRFdmVudExpc3RlbmVyKCJjbGljayIsIGFzeW5jICgpID0+IHsKICBpbnN0YWxsQnRuLmNsYXNzTGlzdC5hZGQoIm9jdWx0Iik7CiAgZGVmZXJyZWRQcm9tcHQucHJvbXB0KCk7CiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgZGVmZXJyZWRQcm9tcHQudXNlckNob2ljZTsKICBjb25zb2xlLmxvZygiSW5zdGFswrdsYWNpw7M6IiwgcmVzdWx0KTsKICBkZWZlcnJlZFByb21wdCA9IG51bGw7Cn0pOwo",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAvQsAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					10,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAKA0AAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					14,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAABfDQAAY29uc29sZS5sb2coIlVJIGNhcnJlZ2FkYSIpOwoKaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9Ac3VwYWJhc2Uvc3VwYWJhc2UtanNAMi8rZXNtIjsKCmNvbnNvbGUubG9nKCJTdXBhYmFzZSBjYXJyZWdhdCB2aWEgRVNNIik7Cgpjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudCgKICAiaHR0cHM6Ly93aGZpbm1scnlvY2dycHp5Z2Rtai5zdXBhYmFzZS5jbyIsCiAgImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkluZG9abWx1Yld4eWVXOWpaM0p3ZW5sblpHMXFJaXdpY205c1pTSTZJbUZ1YjI0aUxDSnBZWFFpT2pFM056VTBOVGd4T0RRc0ltVjRjQ0k2TWpBNU1UQXpOREU0TkgwLnQ5SzhsM2plak9IZ2FmaGdzd3J6WU1RTnh0ZEJfR2hQLXFEdi1icjlzZVUiCik7Cgpjb25zb2xlLmxvZygiU3VwYWJhc2U6Iiwgc3VwYWJhc2UpOwoKLy8g8J+UpSBWQVJJQUJMRVMgREVMIERPTQpjb25zdCBidXNjYWRvciA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJidXNjYWRvciIpOwpjb25zdCByZXN1bHRhdHMgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgicmVzdWx0YXRzIik7CmNvbnN0IGRldGFsbCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJkZXRhbGwiKTsKY29uc3QgYm90b1RhbmNhciA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJ0YW5jYXItZGV0YWxsIik7CgovLyDwn5SlIExJU1RFTkVSIERFTCBCT1TDkyDigJxUQU5DQVLigJ0KYm90b1RhbmNhci5vbmNsaWNrID0gKCkgPT4gewogIGRldGFsbC5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwp9OwoKLy8g8J+UpSBMSVNURU5FUiBERUwgQlVTQ0FET1IKYnVzY2Fkb3IuYWRkRXZlbnRMaXN0ZW5lcigiaW5wdXQiLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgdGV4dCA9IGJ1c2NhZG9yLnZhbHVlLnRvTG93ZXJDYXNlKCk7CiAgcmVzdWx0YXRzLmlubmVySFRNTCA9ICIiOwoKICBpZiAodGV4dC5sZW5ndGggPT09IDApIHJldHVybjsKCiAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgIC5mcm9tKCJsb2NhbGl0emFjaW9ucyIpCiAgICAuc2VsZWN0KCIqIikKICAgIC5pbGlrZSgibm9tIiwgYCUke3RleHR9JWApCiAgICAubGltaXQoMzApOwoKICBpZiAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkVycm9yIFN1cGFiYXNlOiIsIGVycm9yKTsKICAgIHJldHVybjsKICB9CgogIGRhdGEuZm9yRWFjaChsb2MgPT4gewogICAgY29uc3QgZGl2ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiZGl2Iik7CiAgICBkaXYuY2xhc3NOYW1lID0gInJlc3VsdGF0IjsKICAgIGRpdi50ZXh0Q29udGVudCA9IGxvYy5ub207CiAgICBkaXYub25jbGljayA9ICgpID0+IG1vc3RyYXJEZXRhbGwobG9jKTsKICAgIHJlc3VsdGF0cy5hcHBlbmRDaGlsZChkaXYpOwogIH0pOwp9KTsKCi8vIPCflKUgRlVOQ0nDkyBERVRBTEwKZnVuY3Rpb24gbW9zdHJhckRldGFsbChsb2MpIHsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLW5vbSIpLnRleHRDb250ZW50ID0gbG9jLm5vbTsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLWxhdCIpLnRleHRDb250ZW50ID0gbG9jLmxhdDsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLWxvbiIpLnRleHRDb250ZW50ID0gbG9jLmxvbjsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLXBvYmxhY2lvIikudGV4dENvbnRlbnQgPSBsb2MucG9ibGFjaW87CiAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImRldGFsbC1jb21hcmNhIikudGV4dENvbnRlbnQgPSBsb2MuY29tYXJjYTsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGV0YWxsLXRlbGVmb24iKS50ZXh0Q29udGVudCA9IGxvYy50ZWxlZm9uOwogIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJkZXRhbGwtY29tZW50YXJpIikudGV4dENvbnRlbnQgPSBsb2MuY29tZW50YXJpOwoKICBjb25zdCBncHNCdXR0b25zID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImdwcy1idXR0b25zIik7CiAgZ3BzQnV0dG9ucy5pbm5lckhUTUwgPSAiIjsKCiAgZnVuY3Rpb24gY3JlYXJCb3RvKHVybCwgbGFiZWwpIHsKICAgIGNvbnN0IGJvdG8gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJidXR0b24iKTsKICAgIGJvdG8udGV4dENvbnRlbnQgPSBsYWJlbDsKICAgIGJvdG8uc3R5bGUubWFyZ2luUmlnaHQgPSAiMTBweCI7CiAgICBib3RvLm9uY2xpY2sgPSAoKSA9PiB3aW5kb3cub3Blbih1cmwsICJfYmxhbmsiKTsKICAgIGdwc0J1dHRvbnMuYXBwZW5kQ2hpbGQoYm90byk7CiAgfQoKICBpZiAobG9jLmdwczEpIGNyZWFyQm90byhsb2MuZ3BzMSwgIkdQUyAxIik7CiAgaWYgKGxvYy5ncHMyKSBjcmVhckJvdG8obG9jLmdwczIsICJHUFMgMiIpOwogIGlmIChsb2MuZ3BzMykgY3JlYXJCb3RvKGxvYy5ncHMzLCAiR1BTIDMiKTsKCiAgZGV0YWxsLmNsYXNzTGlzdC5yZW1vdmUoIm9jdWx0Iik7Cn0KCgovLyDwn5SlIEJPVMOTIETigJlJTlNUQUzCt0xBUiBQV0Eg4oCUIENPUlJFR0lUCmxldCBkZWZlcnJlZFByb21wdDsKY29uc3QgaW5zdGFsbEJ0biA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJpbnN0YWxsQnRuIik7CgovLyDwn5+pIDEpIEFtYWdhciBlbCBib3TDsyBzaSBsYSBQV0EgamEgZXN0w6AgaW5zdGFswrdsYWRhCmlmICh3aW5kb3cubWF0Y2hNZWRpYSgnKGRpc3BsYXktbW9kZTogc3RhbmRhbG9uZSknKS5tYXRjaGVzKSB7CiAgaW5zdGFsbEJ0bi5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwp9CgovLyDwn5+pIDIpIE1vc3RyYXIgZWwgYm90w7Mgbm9tw6lzIHNpIGxhIFBXQSBOTyBlc3TDoCBpbnN0YWzCt2xhZGEKd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoImJlZm9yZWluc3RhbGxwcm9tcHQiLCAoZSkgPT4gewoKICAvLyBTaSBqYSBlc3TDoCBpbnN0YWzCt2xhZGEg4oaSIG5vIG1vc3RyYXIgZWwgYm90w7MKICBpZiAod2luZG93Lm1hdGNoTWVkaWEoJyhkaXNwbGF5LW1vZGU6IHN0YW5kYWxvbmUpJykubWF0Y2hlcykgcmV0dXJuOwoKICBlLnByZXZlbnREZWZhdWx0KCk7CiAgZGVmZXJyZWRQcm9tcHQgPSBlOwogIGluc3RhbGxCdG4uY2xhc3NMaXN0LnJlbW92ZSgib2N1bHQiKTsKfSk7CgovLyDwn5+pIDMpIEFjY2nDsyBkZWwgYm90w7MgZOKAmWluc3RhbMK3bGFyCmluc3RhbGxCdG4uYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLCBhc3luYyAoKSA9PiB7CiAgaW5zdGFsbEJ0bi5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwogIGRlZmVycmVkUHJvbXB0LnByb21wdCgpOwogIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGRlZmVycmVkUHJvbXB0LnVzZXJDaG9pY2U7CiAgY29uc29sZS5sb2coIkluc3RhbMK3bGFjacOzOiIsIHJlc3VsdCk7CiAgZGVmZXJyZWRQcm9tcHQgPSBudWxsOwp9KTsK",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAKA0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAKA0AAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					18,
+					1,
+					"paste",
+					null,
+					"AQAAAMIJAAAAAAAAXg4AAAAAAACLAwAALy8g8J+UpSBCT1TDkyBE4oCZSU5TVEFMwrdMQVIgUFdBIOKAlCBDT1JSRUdJVApsZXQgZGVmZXJyZWRQcm9tcHQ7CmNvbnN0IGluc3RhbGxCdG4gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiaW5zdGFsbEJ0biIpOwoKLy8g8J+fqSAxKSBBbWFnYXIgZWwgYm90w7Mgc2kgbGEgUFdBIGphIGVzdMOgIGluc3RhbMK3bGFkYQppZiAod2luZG93Lm1hdGNoTWVkaWEoJyhkaXNwbGF5LW1vZGU6IHN0YW5kYWxvbmUpJykubWF0Y2hlcykgewogIGluc3RhbGxCdG4uY2xhc3NMaXN0LmFkZCgib2N1bHQiKTsKfQoKLy8g8J+fqSAyKSBNb3N0cmFyIGVsIGJvdMOzIG5vbcOpcyBzaSBsYSBQV0EgTk8gZXN0w6AgaW5zdGFswrdsYWRhCndpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJiZWZvcmVpbnN0YWxscHJvbXB0IiwgKGUpID0+IHsKCiAgLy8gU2kgamEgZXN0w6AgaW5zdGFswrdsYWRhIOKGkiBubyBtb3N0cmFyIGVsIGJvdMOzCiAgaWYgKHdpbmRvdy5tYXRjaE1lZGlhKCcoZGlzcGxheS1tb2RlOiBzdGFuZGFsb25lKScpLm1hdGNoZXMpIHJldHVybjsKCiAgZS5wcmV2ZW50RGVmYXVsdCgpOwogIGRlZmVycmVkUHJvbXB0ID0gZTsKICBpbnN0YWxsQnRuLmNsYXNzTGlzdC5yZW1vdmUoIm9jdWx0Iik7Cn0pOwoKLy8g8J+fqSAzKSBBY2Npw7MgZGVsIGJvdMOzIGTigJlpbnN0YWzCt2xhcgppbnN0YWxsQnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgYXN5bmMgKCkgPT4gewogIGluc3RhbGxCdG4uY2xhc3NMaXN0LmFkZCgib2N1bHQiKTsKICBkZWZlcnJlZFByb21wdC5wcm9tcHQoKTsKICBjb25zdCByZXN1bHQgPSBhd2FpdCBkZWZlcnJlZFByb21wdC51c2VyQ2hvaWNlOwogIGNvbnNvbGUubG9nKCJJbnN0YWzCt2xhY2nDszoiLCByZXN1bHQpOwogIGRlZmVycmVkUHJvbXB0ID0gbnVsbDsKfSk7Cg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMIJAAAAAAAAKA0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					21,
+					1,
+					"paste",
+					null,
+					"AQAAAMIJAAAAAAAALg4AAAAAAADLBAAALy8g8J+UpSBCT1TDkyBE4oCZSU5TVEFMwrdMQVIgUFdBIOKAlCBWRVJTScOTIERFRklOSVRJVkEKbGV0IGRlZmVycmVkUHJvbXB0Owpjb25zdCBpbnN0YWxsQnRuID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImluc3RhbGxCdG4iKTsKCi8vIEZ1bmNpw7MgcGVyIHNhYmVyIHNpIGxhIFBXQSBlc3TDoCBpbnN0YWzCt2xhZGEKZnVuY3Rpb24gcHdhSW5zdGFsYWRhKCkgewogIHJldHVybiAoCiAgICB3aW5kb3cubWF0Y2hNZWRpYSgnKGRpc3BsYXktbW9kZTogc3RhbmRhbG9uZSknKS5tYXRjaGVzIHx8CiAgICB3aW5kb3cubWF0Y2hNZWRpYSgnKGRpc3BsYXktbW9kZTogbWluaW1hbC11aSknKS5tYXRjaGVzIHx8CiAgICBuYXZpZ2F0b3Iuc3RhbmRhbG9uZSA9PT0gdHJ1ZQogICk7Cn0KCi8vIPCfn6kgMSkgQW1hZ2FyIGVsIGJvdMOzIHNpIGxhIFBXQSBqYSBlc3TDoCBpbnN0YWzCt2xhZGEKaWYgKHB3YUluc3RhbGFkYSgpKSB7CiAgaW5zdGFsbEJ0bi5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwp9CgovLyDwn5+pIDIpIE1vc3RyYXIgZWwgYm90w7Mgbm9tw6lzIHNpIGxhIFBXQSBOTyBlc3TDoCBpbnN0YWzCt2xhZGEKd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoImJlZm9yZWluc3RhbGxwcm9tcHQiLCAoZSkgPT4gewoKICAvLyBTaSBqYSBlc3TDoCBpbnN0YWzCt2xhZGEg4oaSIG5vIG1vc3RyYXIgZWwgYm90w7MKICBpZiAocHdhSW5zdGFsYWRhKCkpIHJldHVybjsKCiAgZS5wcmV2ZW50RGVmYXVsdCgpOwogIGRlZmVycmVkUHJvbXB0ID0gZTsKICBpbnN0YWxsQnRuLmNsYXNzTGlzdC5yZW1vdmUoIm9jdWx0Iik7Cn0pOwoKLy8g8J+fqSAzKSBBY2Npw7MgZGVsIGJvdMOzIGTigJlpbnN0YWzCt2xhcgppbnN0YWxsQnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgYXN5bmMgKCkgPT4gewogIGluc3RhbGxCdG4uY2xhc3NMaXN0LmFkZCgib2N1bHQiKTsKICBkZWZlcnJlZFByb21wdC5wcm9tcHQoKTsKICBjb25zdCByZXN1bHQgPSBhd2FpdCBkZWZlcnJlZFByb21wdC51c2VyQ2hvaWNlOwogIGNvbnNvbGUubG9nKCJJbnN0YWzCt2xhY2nDszoiLCByZXN1bHQpOwogIGRlZmVycmVkUHJvbXB0ID0gbnVsbDsKCiAgLy8gU2kgbOKAmXVzdWFyaSBoYSBpbnN0YWzCt2xhdCDihpIgYW1hZ2FyIGVsIGJvdMOzIGRlZmluaXRpdmFtZW50CiAgaWYgKHB3YUluc3RhbGFkYSgpKSB7CiAgICBpbnN0YWxsQnRuLmNsYXNzTGlzdC5hZGQoIm9jdWx0Iik7CiAgfQp9KTsK",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMIJAAAAAAAAXg4AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					24,
+					1,
+					"paste",
+					null,
+					"AQAAAMIJAAAAAAAALg4AAAAAAACXBAAALy8g8J+UpSBCT1TDkyBE4oCZSU5TVEFMwrdMQVIgUFdBIOKAlCBWRVJTScOTIERFRklOSVRJVkEKbGV0IGRlZmVycmVkUHJvbXB0Owpjb25zdCBpbnN0YWxsQnRuID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImluc3RhbGxCdG4iKTsKCi8vIEZ1bmNpw7MgcGVyIHNhYmVyIHNpIGxhIFBXQSBlc3TDoCBpbnN0YWzCt2xhZGEKZnVuY3Rpb24gcHdhSW5zdGFsYWRhKCkgewogIHJldHVybiAoCiAgICB3aW5kb3cubWF0Y2hNZWRpYSgnKGRpc3BsYXktbW9kZTogc3RhbmRhbG9uZSknKS5tYXRjaGVzIHx8CiAgICB3aW5kb3cubWF0Y2hNZWRpYSgnKGRpc3BsYXktbW9kZTogbWluaW1hbC11aSknKS5tYXRjaGVzIHx8CiAgICBuYXZpZ2F0b3Iuc3RhbmRhbG9uZSA9PT0gdHJ1ZQogICk7Cn0KCi8vIPCfn6kgMSkgU2kgbGEgUFdBIGVzdMOgIGluc3RhbMK3bGFkYSDihpIgYW1hZ3VlbSBlbCBib3TDsyBpIE5PIGNvbmZpZ3VyZW0gcmVzIG3DqXMKaWYgKHB3YUluc3RhbGFkYSgpKSB7CiAgaW5zdGFsbEJ0bi5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwogIGNvbnNvbGUubG9nKCJQV0EgaW5zdGFswrdsYWRhIOKGkiBubyBtb3N0cmFyIGJvdMOzIik7Cn0gZWxzZSB7CgogIC8vIPCfn6kgMikgTm9tw6lzIGVzY29sdGVtIGzigJllc2RldmVuaW1lbnQgc2kgTk8gZXN0w6AgaW5zdGFswrdsYWRhCiAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoImJlZm9yZWluc3RhbGxwcm9tcHQiLCAoZSkgPT4gewogICAgY29uc29sZS5sb2coImJlZm9yZWluc3RhbGxwcm9tcHQgZGlzcGFyYXQiKTsKCiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBkZWZlcnJlZFByb21wdCA9IGU7CiAgICBpbnN0YWxsQnRuLmNsYXNzTGlzdC5yZW1vdmUoIm9jdWx0Iik7CiAgfSk7CgogIC8vIPCfn6kgMykgQWNjacOzIGRlbCBib3TDsyBk4oCZaW5zdGFswrdsYXIKICBpbnN0YWxsQnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgYXN5bmMgKCkgPT4gewogICAgaW5zdGFsbEJ0bi5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwogICAgZGVmZXJyZWRQcm9tcHQucHJvbXB0KCk7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBkZWZlcnJlZFByb21wdC51c2VyQ2hvaWNlOwogICAgY29uc29sZS5sb2coIkluc3RhbMK3bGFjacOzOiIsIHJlc3VsdCk7CiAgICBkZWZlcnJlZFByb21wdCA9IG51bGw7CiAgfSk7Cn0",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMIJAAAAAAAALQ4AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					27,
+					1,
+					"paste",
+					null,
+					"AQAAAMIJAAAAAAAAUQ8AAAAAAACXBAAALy8g8J+UpSBCT1TDkyBE4oCZSU5TVEFMwrdMQVIgUFdBIOKAlCBWRVJTScOTIERFRklOSVRJVkEKbGV0IGRlZmVycmVkUHJvbXB0Owpjb25zdCBpbnN0YWxsQnRuID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImluc3RhbGxCdG4iKTsKCi8vIEZ1bmNpw7MgcGVyIHNhYmVyIHNpIGxhIFBXQSBlc3TDoCBpbnN0YWzCt2xhZGEKZnVuY3Rpb24gcHdhSW5zdGFsYWRhKCkgewogIHJldHVybiAoCiAgICB3aW5kb3cubWF0Y2hNZWRpYSgnKGRpc3BsYXktbW9kZTogc3RhbmRhbG9uZSknKS5tYXRjaGVzIHx8CiAgICB3aW5kb3cubWF0Y2hNZWRpYSgnKGRpc3BsYXktbW9kZTogbWluaW1hbC11aSknKS5tYXRjaGVzIHx8CiAgICBuYXZpZ2F0b3Iuc3RhbmRhbG9uZSA9PT0gdHJ1ZQogICk7Cn0KCi8vIPCfn6kgMSkgU2kgbGEgUFdBIGVzdMOgIGluc3RhbMK3bGFkYSDihpIgYW1hZ3VlbSBlbCBib3TDsyBpIE5PIGNvbmZpZ3VyZW0gcmVzIG3DqXMKaWYgKHB3YUluc3RhbGFkYSgpKSB7CiAgaW5zdGFsbEJ0bi5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwogIGNvbnNvbGUubG9nKCJQV0EgaW5zdGFswrdsYWRhIOKGkiBubyBtb3N0cmFyIGJvdMOzIik7Cn0gZWxzZSB7CgogIC8vIPCfn6kgMikgTm9tw6lzIGVzY29sdGVtIGzigJllc2RldmVuaW1lbnQgc2kgTk8gZXN0w6AgaW5zdGFswrdsYWRhCiAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoImJlZm9yZWluc3RhbGxwcm9tcHQiLCAoZSkgPT4gewogICAgY29uc29sZS5sb2coImJlZm9yZWluc3RhbGxwcm9tcHQgZGlzcGFyYXQiKTsKCiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBkZWZlcnJlZFByb21wdCA9IGU7CiAgICBpbnN0YWxsQnRuLmNsYXNzTGlzdC5yZW1vdmUoIm9jdWx0Iik7CiAgfSk7CgogIC8vIPCfn6kgMykgQWNjacOzIGRlbCBib3TDsyBk4oCZaW5zdGFswrdsYXIKICBpbnN0YWxsQnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgYXN5bmMgKCkgPT4gewogICAgaW5zdGFsbEJ0bi5jbGFzc0xpc3QuYWRkKCJvY3VsdCIpOwogICAgZGVmZXJyZWRQcm9tcHQucHJvbXB0KCk7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBkZWZlcnJlZFByb21wdC51c2VyQ2hvaWNlOwogICAgY29uc29sZS5sb2coIkluc3RhbMK3bGFjacOzOiIsIHJlc3VsdCk7CiAgICBkZWZlcnJlZFByb21wdCA9IG51bGw7CiAgfSk7Cn0",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMIJAAAAAAAALQ4AAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "service-worker.js",
+			"redo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAsQAAAAAAAAAvAAAAQSBsYSBjb25zb2xhIChzaSBwb3RzKSBvIGFmZWdlaXggYWl4w7IgYWwgY29kaTo",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC4AAAAAAAAALgAAAAAAAAAAAAAAAADwvw"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 177,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "manifest.json",
+			"settings":
+			{
+				"buffer_size": 431,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					9,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAApwEAAAAAAACVAQAAewogICJuYW1lIjogIkxvY2FsaXR6YWNpb25zIFAmQyBFbmdpbnllcmlhIiwKICAic2hvcnRfbmFtZSI6ICJMb2NhbGl0emFjaW9ucyIsCiAgInN0YXJ0X3VybCI6ICIvIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAidGhlbWVfY29sb3IiOiAiIzFhNzNlOCIsCiAgImljb25zIjogWwogICAgewogICAgICAic3JjIjogImljb25zL2ljb24tMTkyLnBuZyIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJpY29ucy9pY29uLTUxMi5wbmciLAogICAgICAic2l6ZXMiOiAiNTEyeDUxMiIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0KICBdCn0K",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAlQEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAArwEAAAAAAACnAQAAewogICJuYW1lIjogIkxvY2FsaXR6YWNpb25zIFAmQyBFbmdpbnllcmlhIiwKICAic2hvcnRfbmFtZSI6ICJMb2NhbGl0emFjaW9ucyIsCiAgInN0YXJ0X3VybCI6ICIuLyIsCiAgInNjb3BlIjogIi4vIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAidGhlbWVfY29sb3IiOiAiIzFhNzNlOCIsCiAgImljb25zIjogWwogICAgewogICAgICAic3JjIjogImljb25zL2ljb24tMTkyLnBuZyIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJpY29ucy9pY29uLTUxMi5wbmciLAogICAgICAic2l6ZXMiOiAiNTEyeDUxMiIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0KICBdCn0K",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAApwEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAArwEAAAAAAACvAQAAewogICJuYW1lIjogIkxvY2FsaXR6YWNpb25zIFAmQyBFbmdpbnllcmlhIiwKICAic2hvcnRfbmFtZSI6ICJMb2NhbGl0emFjaW9ucyIsCiAgInN0YXJ0X3VybCI6ICJpbmRleC5odG1sIiwKICAic2NvcGUiOiAiLi8iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmZmZmYiLAogICJ0aGVtZV9jb2xvciI6ICIjMWE3M2U4IiwKICAiaWNvbnMiOiBbCiAgICB7CiAgICAgICJzcmMiOiAiaWNvbnMvaWNvbi0xOTIucG5nIiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9LAogICAgewogICAgICAic3JjIjogImljb25zL2ljb24tNTEyLnBuZyIsCiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfQogIF0KfQo",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAArwEAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1401,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAACvBQAAPCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImNhIj4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4KICA8dGl0bGU+UFdBIExvY2FsaXR6YWNpb25zPC90aXRsZT4KCiAgPGxpbmsgcmVsPSJtYW5pZmVzdCIgaHJlZj0ibWFuaWZlc3QuanNvbiI+CiAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSJzdHlsZXMuY3NzIj4KCjwvaGVhZD4KPGJvZHk+CgogIDxoZWFkZXI+CiAgICA8aW1nIHNyYz0ibG9ncHBjLnBuZyIgYWx0PSJMb2dvIiBjbGFzcz0ibG9nbyI+CiAgICA8aDE+TG9jYWxpemFjaW9uZXM8L2gxPgogIDwvaGVhZGVyPgoKICA8bWFpbj4KICAgIDxpbnB1dCBpZD0iYnVzY2Fkb3IiIHR5cGU9InRleHQiIHBsYWNlaG9sZGVyPSJFc2NyaWJlIHBhcmEgYnVzY2FyLi4uIiBhdXRvY29tcGxldGU9Im9mZiI+CgogICAgPGRpdiBpZD0icmVzdWx0YXRzIj48L2Rpdj4KCiAgICA8ZGl2IGlkPSJkZXRhbGwiIGNsYXNzPSJvY3VsdCI+CiAgICAgIDxoMiBpZD0iZGV0YWxsLW5vbSI+PC9oMj4KICAgICAgPHA+PHN0cm9uZz5MYXRpdHVkOjwvc3Ryb25nPiA8c3BhbiBpZD0iZGV0YWxsLWxhdCI+PC9zcGFuPjwvcD4KICAgICAgPHA+PHN0cm9uZz5Mb25naXR1ZDo8L3N0cm9uZz4gPHNwYW4gaWQ9ImRldGFsbC1sb24iPjwvc3Bhbj48L3A+CiAgICAgIDxwPjxzdHJvbmc+UG9ibGFjaW9uOjwvc3Ryb25nPiA8c3BhbiBpZD0iZGV0YWxsLXBvYmxhY2lvIj48L3NwYW4+PC9wPgogICAgICA8cD48c3Ryb25nPkNvbWFyY2E6PC9zdHJvbmc+IDxzcGFuIGlkPSJkZXRhbGwtY29tYXJjYSI+PC9zcGFuPjwvcD4KICAgICAgPHA+PHN0cm9uZz5UZWzDqWZvbm86PC9zdHJvbmc+IDxzcGFuIGlkPSJkZXRhbGwtdGVsZWZvbiI+PC9zcGFuPjwvcD4KICAgICAgPHA+PHN0cm9uZz5Db21lbnRhcmlvOjwvc3Ryb25nPiA8c3BhbiBpZD0iZGV0YWxsLWNvbWVudGFyaSI+PC9zcGFuPjwvcD4KICAgICAgPHA+PC9wPgogICAgICA8ZGl2IGlkPSJncHMtYnV0dG9ucyI+PC9kaXY+CiAgICAgIDxwPjwvcD4KICAgICAgPGJ1dHRvbiBpZD0idGFuY2FyLWRldGFsbCI+Q2VycmFyPC9idXR0b24+CiAgICAgIDxwPjwvcD4KICAgICAgPHA+PC9wPgogICAgICA8YnV0dG9uIGlkPSJpbnN0YWxsQnRuIiBjbGFzcz0ib2N1bHQiPkluc3RhbMK3bGFyIEFwcDwvYnV0dG9uPgogICAgPC9kaXY+CiAgPC9tYWluPgoKICA8c2NyaXB0IHR5cGU9Im1vZHVsZSIgc3JjPSJhcHAuanMiPjwvc2NyaXB0PgoKICA8c2NyaXB0PgogICAgaWYgKCdzZXJ2aWNlV29ya2VyJyBpbiBuYXZpZ2F0b3IpIHsKICAgICAgbmF2aWdhdG9yLnNlcnZpY2VXb3JrZXIucmVnaXN0ZXIoJ3NlcnZpY2Utd29ya2VyLmpzJyk7CiAgICB9CiAgPC9zY3JpcHQ+Cgo8L2JvZHk+CjwvaHRtbD4K",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAArQUAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					8,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAeQUAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/PythonPySide6/CreaRecorreguts/crear_recorreguts.py",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/app.js",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/service-worker.js",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/manifest.json",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/styles.css",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/index.html",
+		"/C/Users/josep/Documents/GitHub/josep1967.github.io/styles.css",
+		"/C/Users/josep/Desktop/TXT Report/resultat.txt",
+		"/C/Users/josep/Desktop/TXT Report/📄 GUIÓ DEL MÒDUL DE RECORREGUTS.txt",
+		"/C/Users/josep/Desktop/TXT Report/inicio_prefs.xml",
+		"/C/Users/josep/Desktop/TXT Report/GUIÓ Etiquetes.txt",
+		"/C/Users/josep/AndroidStudioProjects/DriverHub/app/src/main/res/layout/activity_localizaciones.xml",
+		"/C/Users/josep/Desktop/TXT Report/activity_actividades.xml.txt",
+		"/C/Users/josep/Desktop/DriverHub/app/src/main/res/values/themes.xml",
+		"/C/Users/josep/Desktop/DriverHub/app/src/main/res/values/strings.xml",
+		"/C/Users/josep/Desktop/DriverHub/app/src/main/AndroidManifest.xml",
+		"/C/Users/josep/Desktop/libs.versions.toml",
+		"/C/Users/josep/Desktop/TXT Report/package app.com.pc.hubdriver.actividades",
+		"/C/Users/josep/Desktop/TXT Report/importar/import.js",
+		"/C/Users/josep/Desktop/TXT Report/activity_recorridos.txt",
+		"/D/Pinokio/api/fooocus.git/app/presets/private.json",
+		"/C/Users/josep/Desktop/TXT Report/importar/errors.json",
+		"/C/Users/josep/Desktop/TXT Report/importar/import.js.txt",
+		"/C/Users/josep/Desktop/TXT Report/Guio v1.txt",
+		"/C/Users/josep/Desktop/WorkHub/app/src/main/res/values/styles.xml",
+		"/C/Users/josep/Desktop/WorkHub/app/src/main/AndroidManifest.xml",
+		"/C/Users/josep/Documents/GitHub/traginers-data/version.txt",
+		"/C/Users/josep/Documents/GitHub/traginers-data/update.json",
+		"/C/Users/josep/Desktop/TXT Report/convertir.bat",
+		"/C/Users/josep/Desktop/Traginers/localitzacio.json",
+		"/D/ComfyUI/README.md",
+		"/C/Users/josep/AndroidStudioProjects/Conductores/gradle.properties",
+		"/C/Users/josep/Desktop/TXT Report/ActividadesActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/TacometroActivity.java.TXT",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/tacometro/TacometroActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ActivitatActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/TotalDriveBarView.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ConduccioMainActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/CircularProgressView.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/activity_conduccio_main.xml.txt",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/conduccio/db/ConduccioDBHelper.java.txt",
+		"/C/Users/josep/Documents/GitHub/TraginersTarragona_update/version.json",
+		"/C/Users/josep/Desktop/TXT Report/localitzacio.json",
+		"/C/Users/josep/Desktop/TXT Report/DBHelper.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/activity_activitat.xml.txt",
+		"/C/Users/josep/Desktop/TXT Report/onResume.txt",
+		"/C/Users/josep/Desktop/TXT Report/protected void onResume.txt",
+		"/C/Users/josep/Desktop/TXT Report/updateRunnable.txt",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/recorreguts/RecorregutsAdapter.java",
+		"/D/Oasis/Librerias/IVAO_A359/model/model.CFG",
+		"/D/Oasis/Librerias/IVAO_A359/texture.UAL/ivao.liv",
+		"/C/Users/josep/Desktop/TXT Report/mostrarPeriodoActual.txt",
+		"/C/Users/josep/Desktop/TXT Report/guardarPrimeraActivitat.txt",
+		"/C/Users/josep/Desktop/TXT Report/guardarFinalActividad.txt",
+		"/C/Users/josep/Desktop/TXT Report/carregarEstatActivitat.txt",
+		"/C/Users/josep/Documents/GitHub/traginers/localitzacio.json",
+		"/C/Users/josep/Documents/GitHub/TraginersTarragona_update/localitzacio.json",
+		"/C/Users/josep/Desktop/TXT Report/activity_detall_registre.xml.txt",
+		"/C/Users/josep/Desktop/TXT Report/licenses.json",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/llicencies/RequestAccessActivity.java",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/MainActivity.java",
+		"/C/Users/josep/Documents/GitHub/traginers/README.md",
+		"/C/Users/josep/AndroidStudioProjects/Traginers/Signatura/version.json",
+		"/C/Users/josep/AndroidStudioProjects/Traginers/app/release/version.json",
+		"/C/Users/josep/Desktop/TXT Report/version.json",
+		"/C/Users/josep/Desktop/TXT Report/Xiaomi-22101316UG-Android-14_2025-12-02_230836.logcat.txt",
+		"/C/Users/josep/Desktop/TXT Report/RecordatorioDAO.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/java/app/com/pc/schedule/MenuActivity.java",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/res/values/strings.xml",
+		"/C/Users/josep/Desktop/TXT Report/RecordatorioReceiver.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Traginers/app/src/main/java/app/com/pc/traginers/MainActivity.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/res/values/colors.xml",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/java/app/com/pc/schedule/MainActivity.java",
+		"/C/Users/josep/Desktop/TXT Report/MenuActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/DialogFinJornada.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/DialogInicioJornada.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/java/app/com/pc/schedule/auxiliares/DBHelper.java",
+		"/C/Users/josep/Desktop/TXT Report/dialog_inicio_jornada.xml.txt",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/app/src/main/java/app/com/pc/llevame/Trajectes.java",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/app/src/main/java/app/com/pc/llevame/Menu.java",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/build.gradle.kts",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/gradle.properties",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/gradlew",
+		"/C/Users/josep/Desktop/TXT Report/RecordatorioAdapter.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ReminderReceiver.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/java/app/com/pc/schedule/MainActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/AndroidManifest.xml.txt",
+		"/C/Users/josep/AndroidStudioProjects/Etapa 0/Ubicamela/app/src/main/java/app/com/pc/ubicamela/MainActivity.java",
+		"/C/Users/josep/Desktop/TXT Report/AppDatabaseHelper.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Traginers/app/src/main/java/app/com/pc/traginers/auxiliars/RecordatoriReceiver.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/Menu.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/MainActivity.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/app/src/main/java/app/com/pc/llevame/MainActivity.java",
+		"/C/Users/josep/Desktop/TXT Report/PrimeraActividadActivity.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Llevame/app/src/main/java/app/com/pc/llevame/tacografo/ui/PrimeraActividadActivity.java",
+		"/C/Users/josep/Desktop/TXT Report/report.txt",
+		"/C/Users/josep/Desktop/TXT Report/RepositorioActividades.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/TacografoDatabase.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ActividadEntity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ActividadDao.java.txt",
+		"/C/Users/josep/Desktop/PrimeraActividadActivity.java.txt",
+		"/C/Users/josep/Desktop/Menu.java.txt",
+		"/C/Users/josep/Desktop/RepositorioActividades.java.txt",
+		"/C/Users/josep/Desktop/ActividadDao.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Llevame/app/src/main/java/app/com/pc/llevame/tacografo/data/db/TacografoDatabase.java.txt",
+		"/C/Users/josep/Desktop/PROCESS.txt",
+		"/C/Users/josep/Desktop/Actividad.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Llevame/app/src/main/java/app/com/pc/llevame/Trajectes.java.txt",
+		"/C/Users/josep/Desktop/activity_menu.xml.txt",
+		"/C/Users/josep/Desktop/item_trayecto.xml.txt",
+		"/C/Users/josep/Desktop/DBHelper.txt",
+		"/C/Users/josep/Desktop/Menu.txt",
+		"/C/Users/josep/Desktop/Trajectes.txt",
+		"/C/Users/josep/Desktop/BotonTrayectoManager.txt",
+		"/C/Users/josep/Desktop/MainActivity.txt",
+		"/C/Users/josep/AndroidStudioProjects/Controller/app/src/main/java/app/com/pc/controller/MainActivity.java",
+		"/C/Users/josep/Desktop/Localitzacions.txt",
+		"/C/Users/josep/AndroidStudioProjects/Etapa 0/AI01/app/src/main/java/app/com/pc/ai01/MainActivity.java",
+		"/C/Users/josep/AndroidStudioProjects/Etapa 0/MyAgenda/app/src/main/java/app/com/pc/myagenda/MainActivity.java",
+		"/C/Users/josep/AndroidStudioProjects/Bitacora/app/src/main/java/app/com/pc/bitacora/MainActivity.java",
+		"/C/Users/josep/allemande/parler.py",
+		"/C/Users/josep/allemande/README.md",
+		"/C/Users/josep/allemande/setup.py",
+		"/D/iMobie/Fooocus-main/readme.md",
+		"/C/Users/josep/AndroidStudioProjects/Jornada/app/src/main/java/app/com/pc/jornada/Menu.java",
+		"/C/Users/josep/AndroidStudioProjects/Jornada/app/src/main/java/app/com/pc/jornada/Operacions.java",
+		"/C/Users/josep/AndroidStudioProjects/Jornada/app/src/main/java/app/com/pc/jornada/Activitat.java",
+		"/C/Users/josep/AndroidStudioProjects/Jornada/app/src/main/java/app/com/pc/jornada/Anteriors.java"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2624,
+								2624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1863.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3923
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1341.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "service-worker.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "manifest.json",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "styles.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

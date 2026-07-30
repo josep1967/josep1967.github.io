@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ALFALFA_",
+				"ALFALFA_SILAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/PythonPySide6/CreaRecorreguts/server.py",
+		"/D/PythonPySide6/CreaRecorreguts/mapa.html",
+		"/D/PythonPySide6/CreaRecorreguts/recorreguts.py",
+		"/D/PythonPySide6/CreaRecorreguts/style.json",
+		"/D/PythonPySide6/CreaRecorreguts/main.py",
+		"/D/PythonPySide6/CreaRecorreguts/upload.py",
+		"/D/PythonPySide6/CreaRecorreguts/recorregut_manual.json",
+		"/C/Users/josep/Desktop/TXT Report/recorreguts_rows.json",
+		"/D/PythonPySide6/CreaRecorreguts/CreaRecorreguts.zip.b64",
+		"/D/PythonPySide6/CreaRecorreguts/CreaRecorreguts.zip.base64",
+		"/D/PythonPySide6/CreaRecorreguts/maplibre/maplibre-gl.js",
+		"/C/Users/josep/Documents/GitHub/josep1967.github.io/styles.css",
+		"/C/Users/josep/Documents/GitHub/josep1967.github.io/app.js",
+		"/C/Users/josep/Documents/GitHub/josep1967.github.io/service-worker.js",
+		"/C/Users/josep/Documents/GitHub/josep1967.github.io/manifest.json",
+		"/C/Users/josep/Documents/GitHub/josep1967.github.io/index.html",
+		"/D/PythonPySide6/CreaRecorreguts/crear_recorreguts.py",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/app.js",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/service-worker.js",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/manifest.json",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/styles.css",
+		"/C/Users/josep/Documents/GitHub/localitzacions-pwa/index.html",
+		"/C/Users/josep/Desktop/TXT Report/resultat.txt",
+		"/C/Users/josep/Desktop/TXT Report/📄 GUIÓ DEL MÒDUL DE RECORREGUTS.txt",
+		"/C/Users/josep/Desktop/TXT Report/inicio_prefs.xml",
+		"/C/Users/josep/Desktop/TXT Report/GUIÓ Etiquetes.txt",
+		"/C/Users/josep/AndroidStudioProjects/DriverHub/app/src/main/res/layout/activity_localizaciones.xml",
+		"/C/Users/josep/Desktop/TXT Report/activity_actividades.xml.txt",
+		"/C/Users/josep/Desktop/DriverHub/app/src/main/res/values/themes.xml",
+		"/C/Users/josep/Desktop/DriverHub/app/src/main/res/values/strings.xml",
+		"/C/Users/josep/Desktop/DriverHub/app/src/main/AndroidManifest.xml",
+		"/C/Users/josep/Desktop/libs.versions.toml",
+		"/C/Users/josep/Desktop/TXT Report/package app.com.pc.hubdriver.actividades",
+		"/C/Users/josep/Desktop/TXT Report/importar/import.js",
+		"/C/Users/josep/Desktop/TXT Report/activity_recorridos.txt",
+		"/D/Pinokio/api/fooocus.git/app/presets/private.json",
+		"/C/Users/josep/Desktop/TXT Report/importar/errors.json",
+		"/C/Users/josep/Desktop/TXT Report/importar/import.js.txt",
+		"/C/Users/josep/Desktop/TXT Report/Guio v1.txt",
+		"/C/Users/josep/Desktop/WorkHub/app/src/main/res/values/styles.xml",
+		"/C/Users/josep/Desktop/WorkHub/app/src/main/AndroidManifest.xml",
+		"/C/Users/josep/Documents/GitHub/traginers-data/version.txt",
+		"/C/Users/josep/Documents/GitHub/traginers-data/update.json",
+		"/C/Users/josep/Desktop/TXT Report/convertir.bat",
+		"/C/Users/josep/Desktop/Traginers/localitzacio.json",
+		"/D/ComfyUI/README.md",
+		"/C/Users/josep/AndroidStudioProjects/Conductores/gradle.properties",
+		"/C/Users/josep/Desktop/TXT Report/ActividadesActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/TacometroActivity.java.TXT",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/tacometro/TacometroActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ActivitatActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/TotalDriveBarView.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ConduccioMainActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/CircularProgressView.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/activity_conduccio_main.xml.txt",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/conduccio/db/ConduccioDBHelper.java.txt",
+		"/C/Users/josep/Documents/GitHub/TraginersTarragona_update/version.json",
+		"/C/Users/josep/Desktop/TXT Report/localitzacio.json",
+		"/C/Users/josep/Desktop/TXT Report/DBHelper.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/activity_activitat.xml.txt",
+		"/C/Users/josep/Desktop/TXT Report/onResume.txt",
+		"/C/Users/josep/Desktop/TXT Report/protected void onResume.txt",
+		"/C/Users/josep/Desktop/TXT Report/updateRunnable.txt",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/recorreguts/RecorregutsAdapter.java",
+		"/D/Oasis/Librerias/IVAO_A359/model/model.CFG",
+		"/D/Oasis/Librerias/IVAO_A359/texture.UAL/ivao.liv",
+		"/C/Users/josep/Desktop/TXT Report/mostrarPeriodoActual.txt",
+		"/C/Users/josep/Desktop/TXT Report/guardarPrimeraActivitat.txt",
+		"/C/Users/josep/Desktop/TXT Report/guardarFinalActividad.txt",
+		"/C/Users/josep/Desktop/TXT Report/carregarEstatActivitat.txt",
+		"/C/Users/josep/Documents/GitHub/traginers/localitzacio.json",
+		"/C/Users/josep/Documents/GitHub/TraginersTarragona_update/localitzacio.json",
+		"/C/Users/josep/Desktop/TXT Report/activity_detall_registre.xml.txt",
+		"/C/Users/josep/Desktop/TXT Report/licenses.json",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/llicencies/RequestAccessActivity.java",
+		"/C/Users/josep/AndroidStudioProjects/TrgTgn/app/src/main/java/app/com/pc/trgtgn/MainActivity.java",
+		"/C/Users/josep/Documents/GitHub/traginers/README.md",
+		"/C/Users/josep/AndroidStudioProjects/Traginers/Signatura/version.json",
+		"/C/Users/josep/AndroidStudioProjects/Traginers/app/release/version.json",
+		"/C/Users/josep/Desktop/TXT Report/version.json",
+		"/C/Users/josep/Desktop/TXT Report/Xiaomi-22101316UG-Android-14_2025-12-02_230836.logcat.txt",
+		"/C/Users/josep/Desktop/TXT Report/RecordatorioDAO.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/java/app/com/pc/schedule/MenuActivity.java",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/res/values/strings.xml",
+		"/C/Users/josep/Desktop/TXT Report/RecordatorioReceiver.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Traginers/app/src/main/java/app/com/pc/traginers/MainActivity.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/res/values/colors.xml",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/java/app/com/pc/schedule/MainActivity.java",
+		"/C/Users/josep/Desktop/TXT Report/MenuActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/DialogFinJornada.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/DialogInicioJornada.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/java/app/com/pc/schedule/auxiliares/DBHelper.java",
+		"/C/Users/josep/Desktop/TXT Report/dialog_inicio_jornada.xml.txt",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/app/src/main/java/app/com/pc/llevame/Trajectes.java",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/app/src/main/java/app/com/pc/llevame/Menu.java",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/build.gradle.kts",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/gradle.properties",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/gradlew",
+		"/C/Users/josep/Desktop/TXT Report/RecordatorioAdapter.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ReminderReceiver.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Schedule/app/src/main/java/app/com/pc/schedule/MainActivity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/AndroidManifest.xml.txt",
+		"/C/Users/josep/AndroidStudioProjects/Etapa 0/Ubicamela/app/src/main/java/app/com/pc/ubicamela/MainActivity.java",
+		"/C/Users/josep/Desktop/TXT Report/AppDatabaseHelper.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Traginers/app/src/main/java/app/com/pc/traginers/auxiliars/RecordatoriReceiver.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/Menu.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/MainActivity.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Etapa IA/Llevame/app/src/main/java/app/com/pc/llevame/MainActivity.java",
+		"/C/Users/josep/Desktop/TXT Report/PrimeraActividadActivity.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Llevame/app/src/main/java/app/com/pc/llevame/tacografo/ui/PrimeraActividadActivity.java",
+		"/C/Users/josep/Desktop/TXT Report/report.txt",
+		"/C/Users/josep/Desktop/TXT Report/RepositorioActividades.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/TacografoDatabase.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ActividadEntity.java.txt",
+		"/C/Users/josep/Desktop/TXT Report/ActividadDao.java.txt",
+		"/C/Users/josep/Desktop/PrimeraActividadActivity.java.txt",
+		"/C/Users/josep/Desktop/Menu.java.txt",
+		"/C/Users/josep/Desktop/RepositorioActividades.java.txt",
+		"/C/Users/josep/Desktop/ActividadDao.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Llevame/app/src/main/java/app/com/pc/llevame/tacografo/data/db/TacografoDatabase.java.txt",
+		"/C/Users/josep/Desktop/PROCESS.txt",
+		"/C/Users/josep/Desktop/Actividad.java.txt",
+		"/C/Users/josep/AndroidStudioProjects/Llevame/app/src/main/java/app/com/pc/llevame/Trajectes.java.txt",
+		"/C/Users/josep/Desktop/activity_menu.xml.txt",
+		"/C/Users/josep/Desktop/item_trayecto.xml.txt",
+		"/C/Users/josep/Desktop/DBHelper.txt",
+		"/C/Users/josep/Desktop/Menu.txt",
+		"/C/Users/josep/Desktop/Trajectes.txt"
+	],
+	"find":
+	{
+		"height": 63.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">style: 'https://demotiles.maplibre.org/style.json',\n\n",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 63.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 122.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
