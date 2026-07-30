@@ -30,10 +30,16 @@ buscador.addEventListener("input", async () => {
   if (text.length === 0) return;
 
   const { data, error } = await supabase
-    .from("localitzacions")
-    .select("*")
-    .ilike("nom", `%${text}%`)
-    .limit(30);
+  .from("localitzacions")
+  .select("*")
+  .or(`
+    nom.ilike.%${text}%,
+    poblacio.ilike.%${text}%,
+    comarca.ilike.%${text}%,
+    comentari.ilike.%${text}%
+  `)
+  .limit(10);
+
 
   if (error) {
     console.error("Error Supabase:", error);
