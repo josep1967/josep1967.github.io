@@ -23,6 +23,11 @@ header {
   margin-bottom: 10px;
 }
 
+.logoW {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
 h1 {
   margin: 0;
   font-size: 26px;
@@ -50,6 +55,7 @@ main {
   border: 2px solid #005bbb;
   margin: 20px auto;
   display: block;
+  text-align: center;
   box-sizing: border-box;
   background: white;
   color: #222;
