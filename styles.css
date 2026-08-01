@@ -12,25 +12,25 @@ body {
 
 header {
   text-align: center;
-  padding: 20px 0;
-  background: #005bbb; /* Blau corporatiu PPC */
+  padding: 8px 0 12px 0; /* molt més compacte */
+  background: #005bbb;
   color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .logo {
-  width: 140px;
-  margin-bottom: 10px;
+  width: 95px;
+  margin: 4px 6px;
 }
 
 .logoW {
-  width: 100px;
-  margin-bottom: 10px;
+  width: 65px;
+  margin: 4px 6px;
 }
 
 h1 {
-  margin: 0;
-  font-size: 26px;
+  margin: 4px 0 0 0;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -49,21 +49,20 @@ main {
 #buscador {
   width: 100%;
   max-width: 420px;
-  padding: 14px 18px;
-  font-size: 18px;
-  border-radius: 12px;
+  padding: 12px 16px; /* més compacte */
+  font-size: 16px;
+  border-radius: 10px;
   border: 2px solid #005bbb;
-  margin: 20px auto;
+  margin: 12px auto; /* menys espai */
   display: block;
   text-align: center;
-  box-sizing: border-box;
   background: white;
   color: #222;
   outline: none;
 }
 
 #buscador:focus {
-  border-color: #f2c200; /* Accent groc PPC */
+  border-color: #f2c200;
   box-shadow: 0 0 6px rgba(242,194,0,0.5);
 }
 
@@ -172,29 +171,30 @@ main {
 }
 
 .contador {
-  margin-top: 10px;
-  font-size: 16px;
+  margin-top: 4px;
+  font-size: 14px;
   font-weight: 600;
-  color: #f2c200; /* groc corporatiu PPC */
+  color: #f2c200;
 }
 
 .intro {
   text-align: center;
-  margin: 10px 0 15px 0;
-  padding: 10px 0;
+  margin: 10px 0 12px 0; /* menys espai */
+  padding: 6px 0;
 }
 
 .intro-title {
   font-size: 14px;
   font-weight: 600;
-  color: #005bbb; /* Blau corporatiu PPC */
-  margin-bottom: 6px;
+  color: #005bbb;
+  margin-bottom: 4px;
 }
 
 .intro-sub {
   font-size: 12px;
   color: #444;
   opacity: 0.85;
+  margin: 2px 0;
 }
 
 
