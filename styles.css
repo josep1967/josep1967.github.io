@@ -47,8 +47,8 @@ main {
 /* ---------- BUSCADOR CORPORATIU ---------- */
 
 #buscador {
-  width: 100%;
-  max-width: 350px;
+  width: 80%;
+  max-width: 300px;
   padding: 10px 14px; /* més compacte */
   font-size: 15px;
   border-radius: 10px;
