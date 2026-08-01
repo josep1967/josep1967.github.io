@@ -170,3 +170,11 @@ main {
 .ocult {
   display: none;
 }
+
+.contador {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f2c200; /* groc corporatiu PPC */
+}
+

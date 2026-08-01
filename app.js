@@ -31,7 +31,7 @@ async function obtenirTotalVisites() {
   document.getElementById("resultats").innerHTML =
     `<p>Total visites: ${count}</p>`;
 }
-
+comptarVisita();
 obtenirTotalVisites();
 
 
