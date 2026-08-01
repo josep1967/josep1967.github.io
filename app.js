@@ -45,6 +45,9 @@ const botoTancar = document.getElementById("tancar-detall");
 // 🔥 LISTENER DEL BOTÓ “TANCAR”
 botoTancar.onclick = () => {
   detall.classList.add("ocult");
+  buscador.value = "";
+  resultats.innerHTML = "";
+  buscador.focus();
 };
 
 // 🔥 LISTENER DEL BUSCADOR
