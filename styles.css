@@ -48,12 +48,12 @@ main {
 
 #buscador {
   width: 100%;
-  max-width: 420px;
-  padding: 12px 16px; /* més compacte */
-  font-size: 16px;
+  max-width: 350px;
+  padding: 10px 14px; /* més compacte */
+  font-size: 15px;
   border-radius: 10px;
   border: 2px solid #005bbb;
-  margin: 12px auto; /* menys espai */
+  margin: 10px auto; /* menys espai */
   display: block;
   text-align: center;
   background: white;
