@@ -13,7 +13,7 @@ console.log("Supabase:", supabase);
 
 async function comptarVisita() {
   const { error } = await supabase
-    .from("v2_visites_pwa")
+    .from("visites_pwa")
     .insert({});
 
   if (error) console.error("Error comptador:", error);
@@ -23,13 +23,13 @@ comptarVisita();
 
 async function obtenirTotalVisites() {
   const { count, error } = await supabase
-    .from("v2_visites_pwa")
+    .from("visites_pwa")
     .select("*", { count: "exact", head: true });
 
   if (error) return console.error(error);
 
   document.getElementById("contador-visites").textContent =
-  `Visites totals: ${count}`;
+  `Visitas totales: ${count}`;
 }
 comptarVisita();
 obtenirTotalVisites();
