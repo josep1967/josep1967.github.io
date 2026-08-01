@@ -11,6 +11,31 @@ const supabase = createClient(
 
 console.log("Supabase:", supabase);
 
+async function comptarVisita() {
+  const { error } = await supabase
+    .from("v2_visites_pwa")
+    .insert({});
+
+  if (error) console.error("Error comptador:", error);
+}
+
+comptarVisita();
+
+async function obtenirTotalVisites() {
+  const { count, error } = await supabase
+    .from("v2_visites_pwa")
+    .select("*", { count: "exact", head: true });
+
+  if (error) return console.error(error);
+
+  document.getElementById("resultats").innerHTML =
+    `<p>Total visites: ${count}</p>`;
+}
+
+obtenirTotalVisites();
+
+
+
 // 🔥 VARIABLES DEL DOM
 const buscador = document.getElementById("buscador");
 const resultats = document.getElementById("resultats");

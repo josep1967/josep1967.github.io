@@ -1,11 +1,15 @@
 {
   "name": "Localitzacions P&C Enginyeria",
   "short_name": "Localitzacions",
-  "start_url": "index.html",
+  "description": "Buscador corporativo de localitzaciones con GPS, información detallada.",
+  "lang": "es",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#1a73e8",
+  "theme_color": "#005bbb",
+
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -16,6 +20,17 @@
       "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+
+  "categories": ["productivity", "business", "navigation"],
+
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Pantalla principal"
     }
   ]
 }
