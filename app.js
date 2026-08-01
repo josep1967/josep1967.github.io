@@ -28,8 +28,8 @@ async function obtenirTotalVisites() {
 
   if (error) return console.error(error);
 
-  document.getElementById("resultats").innerHTML =
-    `<p>Total visites: ${count}</p>`;
+  document.getElementById("contador-visites").textContent =
+  `Visites totals: ${count}`;
 }
 comptarVisita();
 obtenirTotalVisites();
