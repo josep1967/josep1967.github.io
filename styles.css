@@ -178,3 +178,23 @@ main {
   color: #f2c200; /* groc corporatiu PPC */
 }
 
+.intro {
+  text-align: center;
+  margin: 20px 0 30px 0;
+  padding: 10px 0;
+}
+
+.intro-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #005bbb; /* Blau corporatiu PPC */
+  margin-bottom: 6px;
+}
+
+.intro-sub {
+  font-size: 12px;
+  color: #444;
+  opacity: 0.85;
+}
+
+
