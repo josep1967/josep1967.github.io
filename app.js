@@ -93,7 +93,7 @@ function mostrarDetall(loc) {
 
   // URL pública del bucket (igual que a l'app Android)
   const fotoUrl =
-    `https://whfinmlryocgrpzygdmj.supabase.co/storage/v1/object/public/localitzacions_fotos/${loc.id}.jpg`;
+    `https://whfinmlryocgrpzygdmj.supabase.co/storage/v1/object/public/localitzacions_fotos/${loc.id}.png`;
 
   foto.src = fotoUrl;
 
