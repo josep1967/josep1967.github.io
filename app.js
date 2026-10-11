@@ -19,8 +19,6 @@ async function comptarVisita() {
   if (error) console.error("Error comptador:", error);
 }
 
-comptarVisita();
-
 async function obtenirTotalVisites() {
   const { count, error } = await supabase
     .from("visites_pwa")
@@ -78,23 +76,40 @@ buscador.addEventListener("input", async () => {
 });
 
 
-// 🔥 FUNCIÓ DETALL
+// 🔥 FUNCIÓ DETALL (versió corregida + fotos)
 function mostrarDetall(loc) {
-  document.getElementById("detall-nom").textContent = loc.nom;
-  document.getElementById("detall-lat").textContent = loc.lat;
-  document.getElementById("detall-lon").textContent = loc.lon;
-  document.getElementById("detall-poblacio").textContent = loc.poblacio;
-  document.getElementById("detall-comarca").textContent = loc.comarca;
-  document.getElementById("detall-telefon").textContent = loc.telefon;
-  document.getElementById("detall-comentari").textContent = loc.comentari;
 
+  // 🔵 Camps de text
+  document.getElementById("detall-nom").textContent = loc.nom ?? "";
+  document.getElementById("detall-lat").textContent = loc.lat ?? "";
+  document.getElementById("detall-lon").textContent = loc.lon ?? "";
+  document.getElementById("detall-poblacio").textContent = loc.poblacio ?? "";
+  document.getElementById("detall-comarca").textContent = loc.comarca ?? "";
+  document.getElementById("detall-telefon").textContent = loc.telefon ?? "";
+  document.getElementById("detall-comentari").textContent = loc.comentari ?? "";
+
+  // 🔵 FOTO PER ID (Supabase Storage)
+  const foto = document.getElementById("detall-foto");
+
+  // URL pública del bucket (igual que a l'app Android)
+  const fotoUrl =
+    `https://whfinmlryocgrpzygdmj.supabase.co/storage/v1/object/public/localitzacions_fotos/${loc.id}.jpg`;
+
+  foto.src = fotoUrl;
+
+  // Si la foto no existeix → placeholder
+  foto.onerror = () => {
+    foto.src = "placeholder.jpg";   // substitueix per la teva imatge
+  };
+
+  // 🔵 Botons GPS
   const gpsButtons = document.getElementById("gps-buttons");
   gpsButtons.innerHTML = "";
 
   function crearBoto(url, label) {
     const boto = document.createElement("button");
     boto.textContent = label;
-    boto.style.marginRight = "10px";
+    boto.className = "boto-gps"; // opcional si tens estil
     boto.onclick = () => window.open(url, "_blank");
     gpsButtons.appendChild(boto);
   }
@@ -103,8 +118,10 @@ function mostrarDetall(loc) {
   if (loc.gps2) crearBoto(loc.gps2, "GPS 2");
   if (loc.gps3) crearBoto(loc.gps3, "GPS 3");
 
+  // 🔵 Mostrar el detall
   detall.classList.remove("ocult");
 }
+
 
 
 // 🔥 BOTÓ D’INSTAL·LAR PWA — SOLUCIÓ DEFINITIVA

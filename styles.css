@@ -197,4 +197,13 @@ main {
   margin: 2px 0;
 }
 
+.foto-localitzacio {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: block;
+}
+
+
 
